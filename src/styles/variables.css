@@ -1,0 +1,19 @@
+:root {
+  --font: 'Nunito', system-ui, sans-serif;
+  --font-display: 'Nunito', system-ui, sans-serif;
+  --c-bg: #FFF9E8;
+  --c-white: #FFFFFF;
+  --c-pink: #FF8FA3;
+  --c-mint: #7ECDC0;
+  --c-lavender: #B8A9E8;
+  --c-yellow: #FFD166;
+  --c-orange: #FFB347;
+  --c-blue: #87CEEB;
+  --c-text: #3D3250;
+  --c-text-muted: #7A6E8A;
+  --c-card-shadow: rgba(61, 50, 80, 0.08);
+  --radius: 1.5rem;
+  --radius-lg: 2.5rem;
+  --container: 1100px;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}

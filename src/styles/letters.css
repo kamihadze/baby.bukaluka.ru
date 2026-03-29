@@ -1,0 +1,53 @@
+.floating-letters {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.floating-letter {
+  position: absolute;
+  font-family: var(--font-display);
+  font-weight: 900;
+  opacity: 0.18;
+  user-select: none;
+}
+
+.letter-pink { color: var(--c-pink); }
+.letter-mint { color: var(--c-mint); }
+.letter-lavender { color: var(--c-lavender); }
+.letter-yellow { color: var(--c-yellow); }
+.letter-blue { color: var(--c-blue); }
+.letter-orange { color: var(--c-orange); }
+
+.section-letters {
+  position: relative;
+}
+
+.section-letters .floating-letter {
+  opacity: 0.15;
+}
+
+.letter-decor {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 1rem;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: var(--c-white);
+  flex-shrink: 0;
+}
+
+.letter-decor-pink { background: var(--c-pink); }
+.letter-decor-mint { background: var(--c-mint); }
+.letter-decor-lavender { background: var(--c-lavender); }
+.letter-decor-yellow { background: var(--c-yellow); }
+.letter-decor-blue { background: var(--c-blue); }
+.letter-decor-orange { background: var(--c-orange); }
